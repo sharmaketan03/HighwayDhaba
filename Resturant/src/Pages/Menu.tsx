@@ -3,7 +3,7 @@ import { Card, CardContent } from "../Components/ui/card";
 import { Button } from "../Components/ui/button";
 import { Badge } from "../Components/ui/badge";
 import { Utensils, Leaf, Flame } from "lucide-react";
-import aloogobi from "../assets/aloo-gobi.jpg"
+import aloogobi from "src/assets/aloo-gobi.jpg"
 
 const Menu = () => {
   const [activeCategory, setActiveCategory] = useState("starters");
