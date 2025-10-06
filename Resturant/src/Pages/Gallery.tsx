@@ -3,15 +3,15 @@ import { Card, CardContent } from "../Components/ui/card";
 import { Button } from "../Components/ui/button";
 import { Badge } from "../Components/ui/badge";
 import { Camera, Play, Heart, Share2, Download, ChefHat, Users, Building, Utensils, Sparkles } from "lucide-react";
-import heroImage from "src/assets/ChatGPT Image Sep 28, 2025, 11_51_22 AM.png"
-import foodImage from "src/assets/tali.jpg";
-import roomImage from "src/assets/hotel room.jpg";
+import heroImage from "../assets/ChatGPT Image Sep 28, 2025, 11_51_22 AM.png"
+import foodImage from "../assets/tali.jpg";
+import roomImage from "../assets/hotel room.jpg";
 import rrajasthaniThaliImage from "../assets/images.jpeg";
 // import kitchenImage from "@/assets/kitchen-gallery.jpg";
 // import customersImage from "@/assets/happy-customers.jpg";
 // import nightImage from "@/assets/dhaba-night.jpg";
-import dalTadkaImage from "src/assets/daltdka.webp";
-import tandoorImage from "src/assets/tandoor.jpg";
+import dalTadkaImage from "../assets/daltdka.webp";
+import tandoorImage from "../assets/tandoor.jpg";
 // import truckDriversImage from "@/assets/truck-drivers.jpg";
 
 // import traditionalSeatingImage from "@/assets/traditional-seating.jpg";
