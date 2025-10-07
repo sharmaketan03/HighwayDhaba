@@ -3,8 +3,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  base: "./", // ✅ fixes broken assets & 404 on Vercel
   build: {
-    outDir: "dist", // Output directory
-    assetsDir: "assets", // Assets folder inside dist
+    outDir: "dist",
+    assetsDir: "assets",
   },
 });
