@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, type ChangeEvent, type FormEvent } from "react";
 import { Card, CardContent } from "../Components/ui/card";
 import { Button } from "../Components/ui/button";
 import { Input } from "../Components/ui/input";
@@ -19,13 +19,30 @@ import {
   Star,
   Percent,
 } from "lucide-react";
-import { useToast} from "../Components/ui/use-toast";
+import { useToast } from "../Components/ui/use-toast";
+
+// 🧩 Type for booking data
+type BookingData = {
+  roomType: string;
+  checkIn: string;
+  checkOut: string;
+  guests: string;
+  rooms: string;
+  tableDate: string;
+  tableTime: string;
+  partySize: string;
+  occasion: string;
+  name: string;
+  email: string;
+  phone: string;
+  specialRequests: string;
+};
 
 const Booking = () => {
   const { toast } = useToast();
-  const [activeTab, setActiveTab] = useState("rooms");
+  const [activeTab, setActiveTab] = useState<"rooms" | "tables">("rooms");
 
-  const [bookingData, setBookingData] = useState({
+  const [bookingData, setBookingData] = useState<BookingData>({
     roomType: "",
     checkIn: "",
     checkOut: "",
@@ -79,14 +96,16 @@ const Booking = () => {
     { icon: Star, text: "Loyalty rewards" },
   ];
 
-  const handleChange = (name, value) => {
+  // ✅ Strongly typed change handler
+  const handleChange = (name: keyof BookingData, value: string) => {
     setBookingData((prev) => ({
       ...prev,
       [name]: value,
     }));
   };
 
-  const handleSubmit = (e) => {
+  // ✅ Strongly typed submit handler
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const message = `
@@ -158,7 +177,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                     <Input
                       id="name"
                       value={bookingData.name}
-                      onChange={(e) => handleChange("name", e.target.value)}
+                      onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                        handleChange("name", e.target.value)
+                      }
                       required
                       placeholder="Enter your name"
                     />
@@ -171,7 +192,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                       id="email"
                       type="email"
                       value={bookingData.email}
-                      onChange={(e) => handleChange("email", e.target.value)}
+                      onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                        handleChange("email", e.target.value)
+                      }
                       placeholder="Enter your email"
                     />
                   </div>
@@ -183,7 +206,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                       id="phone"
                       type="tel"
                       value={bookingData.phone}
-                      onChange={(e) => handleChange("phone", e.target.value)}
+                      onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                        handleChange("phone", e.target.value)
+                      }
                       required
                       placeholder="Enter your phone number"
                     />
@@ -196,7 +221,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                       <div>
                         <Label htmlFor="roomType">Room Type</Label>
                         <Select
-                          onValueChange={(value) => handleChange("roomType", value)}
+                          onValueChange={(value) =>
+                            handleChange("roomType", value)
+                          }
                           value={bookingData.roomType}
                         >
                           <SelectTrigger>
@@ -220,7 +247,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                             id="checkIn"
                             type="date"
                             value={bookingData.checkIn}
-                            onChange={(e) => handleChange("checkIn", e.target.value)}
+                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                              handleChange("checkIn", e.target.value)
+                            }
                             required
                           />
                         </div>
@@ -230,7 +259,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                             id="checkOut"
                             type="date"
                             value={bookingData.checkOut}
-                            onChange={(e) => handleChange("checkOut", e.target.value)}
+                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                              handleChange("checkOut", e.target.value)
+                            }
                             required
                           />
                         </div>
@@ -245,7 +276,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                             type="number"
                             min="1"
                             value={bookingData.guests}
-                            onChange={(e) => handleChange("guests", e.target.value)}
+                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                              handleChange("guests", e.target.value)
+                            }
                           />
                         </div>
                         <div>
@@ -255,7 +288,9 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                             type="number"
                             min="1"
                             value={bookingData.rooms}
-                            onChange={(e) => handleChange("rooms", e.target.value)}
+                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                              handleChange("rooms", e.target.value)
+                            }
                           />
                         </div>
                       </div>
@@ -272,14 +307,18 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                             id="tableDate"
                             type="date"
                             value={bookingData.tableDate}
-                            onChange={(e) => handleChange("tableDate", e.target.value)}
+                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                              handleChange("tableDate", e.target.value)
+                            }
                             required
                           />
                         </div>
                         <div>
                           <Label htmlFor="tableTime">Time</Label>
                           <Select
-                            onValueChange={(value) => handleChange("tableTime", value)}
+                            onValueChange={(value) =>
+                              handleChange("tableTime", value)
+                            }
                             value={bookingData.tableTime}
                           >
                             <SelectTrigger>
@@ -305,13 +344,17 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                             type="number"
                             min="1"
                             value={bookingData.partySize}
-                            onChange={(e) => handleChange("partySize", e.target.value)}
+                            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+                              handleChange("partySize", e.target.value)
+                            }
                           />
                         </div>
                         <div>
                           <Label htmlFor="occasion">Occasion</Label>
                           <Select
-                            onValueChange={(value) => handleChange("occasion", value)}
+                            onValueChange={(value) =>
+                              handleChange("occasion", value)
+                            }
                             value={bookingData.occasion}
                           >
                             <SelectTrigger>
@@ -336,7 +379,7 @@ Special Requests: ${bookingData.specialRequests || "N/A"}
                     <Textarea
                       id="specialRequests"
                       value={bookingData.specialRequests}
-                      onChange={(e) =>
+                      onChange={(e: ChangeEvent<HTMLTextAreaElement>) =>
                         handleChange("specialRequests", e.target.value)
                       }
                       placeholder="Any special requests?"

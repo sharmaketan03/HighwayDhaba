@@ -1,5 +1,6 @@
-import * as React from "react";
-import { useState, ChangeEvent, FormEvent } from "react";
+import React, { useState } from "react";
+import type { ChangeEvent, FormEvent } from "react";
+
 import { Card, CardContent } from "../Components/ui/card";
 import { Button } from "../Components/ui/button";
 import { Input } from "../Components/ui/input";
@@ -8,10 +9,19 @@ import { Label } from "../Components/ui/label";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
 import { useToast } from "../Components/ui/use-toast";
 
+interface FormData {
+  name: string;
+  email: string;
+  phone: string;
+  subject: string;
+  message: string;
+  visitDate: string;
+}
+
 const Contact: React.FC = () => {
   const { toast } = useToast();
 
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: "",
     email: "",
     phone: "",
@@ -27,7 +37,7 @@ const Contact: React.FC = () => {
     });
   };
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!formData.name || !formData.phone || !formData.subject || !formData.message) {
