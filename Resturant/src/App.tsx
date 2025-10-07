@@ -5,8 +5,7 @@ import { TooltipProvider } from "./Components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
-import Logo from "../src/assets/Logo.jpeg";
-
+// import Logo from "../src/assets/Logo.jpeg"
 // Lazy load all pages for better performance
 const Home = lazy(() => import("../src/Pages/Home"));
 const About = lazy(() => import("../src/Pages/About"));
@@ -27,7 +26,7 @@ const PageLoader = () => (
       <div className="relative mb-8">
         <div className="relative w-40 h-40 mx-auto rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden animate-slide-lr">
           <img 
-            src={Logo} 
+            src="../src/assets/Logo.jpeg" 
             alt="PJ Dhaba Logo" 
             className="w-36 h-36 object-cover rounded-full"
           />

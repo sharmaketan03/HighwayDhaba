@@ -3,15 +3,15 @@ import { Card, CardContent } from "../Components/ui/card";
 import { Button } from "../Components/ui/button";
 import { Badge } from "../Components/ui/badge";
 import { Camera, Play, Heart, Share2, Download, ChefHat, Users, Building, Utensils, Sparkles } from "lucide-react";
-import heroImage from "../assets/ChatGPT Image Sep 28, 2025, 11_51_22 AM.png"
-import foodImage from "../assets/tali.jpg";
-import roomImage from "../assets/hotel room.jpg";
-import rrajasthaniThaliImage from "../assets/images.jpeg";
+// import heroImage from "../assets/ChatGPT Image Sep 28, 2025, 11_51_22 AM.png"
+// import foodImage from "../assets/tali.jpg";
+// import roomImage from "../assets/hotel room.jpg";
+// import rrajasthaniThaliImage from "../assets/images.jpeg";
 // import kitchenImage from "@/assets/kitchen-gallery.jpg";
 // import customersImage from "@/assets/happy-customers.jpg";
 // import nightImage from "@/assets/dhaba-night.jpg";
-import dalTadkaImage from "../assets/daltdka.webp";
-import tandoorImage from "../assets/tandoor.jpg";
+// import dalTadkaImage from "../assets/daltdka.webp";
+// import tandoorImage from "../assets/tandoor.jpg";
 // import truckDriversImage from "@/assets/truck-drivers.jpg";
 
 // import traditionalSeatingImage from "@/assets/traditional-seating.jpg";
@@ -23,7 +23,7 @@ const Gallery = () => {
   const galleryItems = [
     {
       id: 1,
-      image: heroImage,
+      image:"src/assets/ChatGPT.png",
       title: "Traditional Dhaba Interior",
       category: "interior",
       description: "Authentic Indian dhaba atmosphere with traditional decor and warm lighting",
@@ -32,7 +32,7 @@ const Gallery = () => {
     },
     {
       id: 2,
-      image: foodImage,
+      image:"src/assets/tali.jpg" ,
       title: "Authentic Indian Thali",
       category: "food",
       description: "Complete Indian meal with various curries, dal, rice, and bread",
@@ -42,7 +42,7 @@ const Gallery = () => {
     },
     {
       id: 3,
-      image: roomImage,
+      image:"src/assets/hotel-room.jpg" ,
       title: "Comfortable Guest Room",
       category: "rooms",
       description: "Clean and comfortable accommodation for highway travelers",
@@ -79,7 +79,7 @@ const Gallery = () => {
     },
     {
       id: 7,
-      image: dalTadkaImage,
+      image: "src/assets/daltdka.webp",
       title: "Dal Tadka Special",
       category: "food",
       description: "Our signature dal tadka with perfect tempering",
@@ -106,7 +106,7 @@ const Gallery = () => {
     },
     {
       id: 10,
-      image: tandoorImage,
+      image: "src/assets/tandoor.jpg",
       title: "Tandoor Cooking",
       category: "kitchen",
       description: "Fresh bread and tandoori items from our clay oven",
@@ -124,7 +124,7 @@ const Gallery = () => {
     },
     {
       id: 12,
-      image:rrajasthaniThaliImage,
+      image: "src/assets/images.jpeg" ,
       title: "Rajasthani Special Thali",
       category: "food",
       description: "Regional specialties from the heart of Rajasthan",

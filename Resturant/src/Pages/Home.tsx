@@ -3,9 +3,9 @@ import { Button } from "../Components/ui/button";
 import { Card, CardContent } from "../Components/ui/card";
 import { Link } from "react-router-dom";
 import { Star, Users, MapPin, Clock, Utensils, Bed, Wifi, Car } from "lucide-react";
-import heroImage from "../assets/ChatGPT Image Sep 28, 2025, 11_51_22 AM.png";
+import heroImage from "../assets/ChatGPT.png";
 import foodImage from "../assets/tali.jpg";
-import roomImage from "../assets/hotel room.jpg";
+import roomImage from "../assets/hotel-room.jpg";
 
 const Home = () => {
   const features = [
