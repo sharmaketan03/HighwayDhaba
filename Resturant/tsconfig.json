@@ -1,7 +1,4 @@
-
-
 {
-
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -27,6 +24,6 @@
     "noUnusedParameters": false,
     "strictNullChecks": false
   },
-  "include": ["src"],
+  "include": ["src", "src/custom.d.ts"],
   "exclude": ["node_modules", "dist", "**/*.d.ts", "build"]
 }

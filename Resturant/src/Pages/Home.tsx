@@ -1,5 +1,4 @@
 import { Button } from "../Components/ui/button";
-
 import { Card, CardContent } from "../Components/ui/card";
 import { Link } from "react-router-dom";
 import { Star, Users, MapPin, Clock, Utensils, Bed, Wifi, Car } from "lucide-react";
