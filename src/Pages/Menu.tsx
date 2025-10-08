@@ -6,9 +6,9 @@ import { Utensils, Leaf, Flame } from "lucide-react";
 import samosa from "../assets/potato-samosas-_2.webp"
 import paneertikka from  "../assets/paneer-tikka.jpg"
 import coldcoffee from "../assets/cold-COffe.jpg"
-import hotcoffe from "../assets/hot-coffee.jpg"
-import pannerpakoda from "../assets/paneer Pakoda.webp"
-import aloopratha from "../assets/Aloo Paratha.jpg"
+import hotcoffe from "../assets/Hot-Coffe.jpg"
+import pannerpakoda from "../assets/paneer-Pakoda.webp"
+import aloopratha from "../assets/Aloo-Paratha.jpg"
 // ⚙️ Type for each menu item
 type MenuItem = {
   name: string;
