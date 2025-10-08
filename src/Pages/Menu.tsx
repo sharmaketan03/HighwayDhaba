@@ -5,7 +5,7 @@ import { Badge } from "../Components/ui/badge";
 import { Utensils, Leaf, Flame } from "lucide-react";
 import samosa from "../assets/potato-samosas-_2.webp"
 import paneertikka from  "../assets/paneer-tikka.jpg"
-import coldcoffee from "../assets/cold-coffee.jpg"
+import coldcoffee from "../assets/cold-COffe.jpg"
 import hotcoffe from "../assets/hot-coffee.jpg"
 import pannerpakoda from "../assets/paneer Pakoda.webp"
 import aloopratha from "../assets/Aloo Paratha.jpg"
