@@ -8,7 +8,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Ye sab CSS variables ke base par kaam karenge
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -36,14 +35,13 @@ module.exports = {
           foreground: "hsl(var(--destructive-foreground))",
         },
 
-        // Custom brand colors (variables already root me define hai)
+        // Custom brand colors
         "heritage-brown": "hsl(var(--heritage-brown))",
         "traditional-gold": "hsl(var(--traditional-gold))",
         "spice-orange": "hsl(var(--spice-orange))",
         "royal-blue": "hsl(var(--royal-blue))",
       },
 
-      // Agar fixed gradients chahiye to variables ka use karo
       backgroundImage: {
         "gradient-heritage": "var(--gradient-heritage)",
         "gradient-warm": "var(--gradient-warm)",
@@ -62,6 +60,8 @@ module.exports = {
     },
   },
   plugins: [
-    require("@tailwindcss/line-clamp"),
+    // ⚠️ Removed line-clamp plugin (included by default in Tailwind v3.3+)
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
   ],
 };
