@@ -26,4 +26,4 @@ const Header = () => {
                                 ? "bg-traditional-gold text-heritage-brown"
                                 : "text-foreground hover:bg-warm-cream hover:text-heritage-brown"}`, onClick: () => setIsMenuOpen(false), children: item.name }, item.name))), _jsx("div", { className: "pt-4", children: _jsx(Button, { variant: "heritage", className: "w-full", asChild: true, children: _jsx(Link, { to: "/booking", children: "Book Now" }) }) })] }) }))] }));
 };
-export default Header;
+export default

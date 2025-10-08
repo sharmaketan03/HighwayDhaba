@@ -17,7 +17,7 @@ const About = () => {
         },
         {
             icon: Award,
-            title: "Quality",
+            title: "Qualities",
             description: "We source the finest ingredients and maintain the highest standards of hygiene and food safety to deliver exceptional dining experiences."
         },
         {

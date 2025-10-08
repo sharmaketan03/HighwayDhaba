@@ -3,7 +3,7 @@ import { Card, CardContent } from "../Components/ui/card";
 import { Button } from "../Components/ui/button";
 import { Badge } from "../Components/ui/badge";
 import { Utensils, Leaf, Flame } from "lucide-react";
-
+import samosa from "../assets/potato-samosas-_2.webp"
 // ⚙️ Type for each menu item
 type MenuItem = {
   name: string;
@@ -39,7 +39,7 @@ const Menu = () => {
         description: "Crispy pastry filled with spiced potatoes and peas",
         veg: true,
         popular: true,
-        image: "src/assets/potato-samosas-_2.webp",
+        image:` ${samosa}`,
       },
       {
         name: "Paneer Tikka",
