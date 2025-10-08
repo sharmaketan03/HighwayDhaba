@@ -4,6 +4,11 @@ import { Button } from "../Components/ui/button";
 import { Badge } from "../Components/ui/badge";
 import { Utensils, Leaf, Flame } from "lucide-react";
 import samosa from "../assets/potato-samosas-_2.webp"
+import paneertikka from  "../assets/paneer-tikka.jpg"
+import coldcoffee from "../assets/cold-coffee.jpg"
+import hotcoffe from "../assets/hot-coffee.jpg"
+import pannerpakoda from "../assets/paneer Pakoda.webp"
+import aloopratha from "../assets/Aloo Paratha.jpg"
 // ⚙️ Type for each menu item
 type MenuItem = {
   name: string;
@@ -46,7 +51,7 @@ const Menu = () => {
         price: "₹180",
         description: "Grilled cottage cheese marinated in spices",
         veg: true,
-        image: "src/assets/paneer-tikka.jpg",
+        image:` ${paneertikka}`,
       },
       {
         name: "Cold Coffee",
@@ -54,28 +59,28 @@ const Menu = () => {
         description: "Chilled coffee with ice cream and cream",
         veg: true,
         spicy: false,
-        image: "src/assets/cold-coffee.jpg",
+        image: ` ${coldcoffee}`  ,
       },
       {
         name: "Hot Coffee",
         price: "₹60",
         description: "This is a hot coffee",
         veg: true,
-        image: "src/assets/hot-coffee.jpg",
+        image:  ` ${hotcoffe}` ,
       },
       {
         name: "Paneer Pakoda",
         price: "₹120",
         description: "Assorted vegetable fritters",
         veg: true,
-        image: "src/assets/paneer-pakoda.webp",
+        image: ` ${pannerpakoda}` ,
       },
       {
         name: "Aloo Paratha",
         price: "₹280",
         description: "Fresh marinated with traditional spices",
         veg: true,
-        image: "src/assets/aloo-paratha.jpg",
+        image:` ${ aloopratha}`,
       },
     ],
     "main-veg": [
