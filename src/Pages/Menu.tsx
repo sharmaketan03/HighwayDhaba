@@ -30,7 +30,7 @@ import mixVegUttapam from "../assets/mixveguttapam.jpg"; // OK
 import onionUttapam from "../assets/onionuthappam.webp"; // OK
 import paneerPakoda from "../assets/paneer-Pakoda.webp"; // OK
 import onionDosa from "../assets/OnionDosa.jpeg"; // OK
-import masalaDosa from "../assets/MasalaDosa.jpeg"; // OK
+import masalaDosa from "../assets/masalaDosa.jpeg"; // OK
 import paneerDosa from "../assets/paneerDosa.jpeg"; // OK
 import plainDosa from "../assets/PlainDosa.jpg"; // OK
 import manchowSoup from "../assets/Manchow Soup.jpeg"; // OK
