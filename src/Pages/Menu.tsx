@@ -26,7 +26,7 @@ import HotCoffe from "../assets/HotCoffe.jpg"; // OK
 import coldCoffe from "../assets/cold-COffe.jpg" // OK
 import alooParatha from "../assets/pannerparatha.png"; // OK
 import cauliflowerParatha from "../assets/Cauliflowerparatha.png"; // Changed casing
-import mixVegUttapam from "../assets/mixveguTTapam.jpg"; // OK
+import mixVegUttapam from "../assets/mixveguttapam.jpg"; // OK
 import onionUttapam from "../assets/onionuthappam.webp"; // OK
 import paneerPakoda from "../assets/paneer-Pakoda.webp"; // OK
 import onionDosa from "../assets/OnionDosa.jpeg"; // OK
