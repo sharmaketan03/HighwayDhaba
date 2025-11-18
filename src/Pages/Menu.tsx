@@ -98,19 +98,19 @@ import SebTomato from "../assets/sev-tamto.webp"; // OK
 import SebBhaji from "../assets/Seb-Bhaji.jpeg"; // OK 
 import GarlicNaan from "../assets/GarlicNaan.jpeg"; // OK 
 import butterNaan from "../assets/butterNaan.jpeg"; // OK
-import missiRoti from "../assets/missiRoti.jpeg"; // OK
-import tandooriRoti from "../assets/tandooriRoti.jpeg"; // OK 
+// import missiRoti from "../assets/missiRoti.jpeg"; // OK
+// import tandooriRoti from "../assets/tandooriRoti.jpeg"; // OK 
 import Staffnan from "../assets/StaffNan.png"; // OK  
 import LacchaParatha from "../assets/LacchaParatha.webp"; // OK       
 import MissiRotiButter from "../assets/MissiRotiButter.jpeg"; // OK
-import PaneerChat from "../assets/PaneerChat.jpeg"; // OK
+// import PaneerChat from "../assets/PaneerChat.jpeg"; // OK
 import MissiRotiPlain from "../assets/MissiRotiPlain.jpeg"; // OK
 import TawaRotiButter from "../assets/ButterRoti.jpeg"; // OK
 import TawaRotiPlain from "../assets/TawaRotiPlain.jpeg"; // OK 
 import VegBiryani from "../assets/Veg. Biryani.jpeg"; // OK
 import VegPulav from "../assets/Veg. Pulav.jpeg"; // OK
 import CholePulav from "../assets/Cholepulav.jpg"; // OK
-import PaneerMasala from "../assets/PaneerMasala.jpeg";
+// import PaneerMasala from "../assets/PaneerMasala.jpeg";
 import JeeraRice from "../assets/JeeraRice.jpeg"; // OK
 import MutterPulav from "../assets/mutterpulav.jpeg"; // OK
 import PlainRice from "../assets/PlainRice.jpeg"; // OK
