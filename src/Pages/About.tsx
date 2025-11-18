@@ -98,7 +98,7 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-4xl font-bold text-heritage-brown">Our Story</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                PJ Dhaba began as a dream of Shri Ram Kumar Sharma in 2009, who wanted to create a place where 
+                PJ Dhaba began as a dream of Shri  Papu Jaat ji in 2009, who wanted to create a place where 
                 travelers could experience the true essence of Indian hospitality. Starting with just four tables 
                 and a small kitchen, we served simple yet delicious meals to truck drivers and highway travelers.
               </p>
