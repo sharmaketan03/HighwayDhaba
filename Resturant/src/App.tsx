@@ -5,7 +5,7 @@ import { TooltipProvider } from "./Components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./Components/Layout/Layout";
-import Logo from "/src/assets/Logo.png";
+import Logo from "./assets/Logo.jpeg";
 // Lazy load all pages for better performance
 const Home = lazy(() => import("../src/Pages/Home"));
 const About = lazy(() => import("../src/Pages/About"));
