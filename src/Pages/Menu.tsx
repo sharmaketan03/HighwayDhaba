@@ -23,7 +23,7 @@ import { Utensils, Leaf, Pizza, Sandwich, ChefHat, Coffee, CookingPot, Layers, P
 // ✅ ALL IMAGE IMPORTS (FIXED & CONSOLIDATED LIST)
 // Ensure these paths are correct in your project structure
 import HotCoffe from "../assets/HotCoffe.jpg"; // OK
-import coldCoffe from "../assets/cold-Coffe.jpg"; // OK
+import coldCoffe from "../assets/cold-COffe.jpg" // OK
 import alooParatha from "../assets/aloo-paratha.jpg"; // OK
 import cauliflowerParatha from "../assets/Cauliflowerparatha.png"; // Changed casing
 import mixVegUttapam from "../assets/mixveguTTapam.jpg"; // OK
