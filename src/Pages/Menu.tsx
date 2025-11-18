@@ -97,7 +97,7 @@ import VegKopta from "../assets/Veg.Kopta.jpeg"; // Corrected to match file name
 import SebTomato from "../assets/sev-tamto.webp"; // OK
 import SebBhaji from "../assets/Seb-Bhaji.jpeg"; // OK 
 import GarlicNaan from "../assets/GarlicNaan.jpeg"; // OK 
-import butterNaan from "../assets/butterNaan.jpeg"; // OK
+import butterNaan from "../assets/ButterNaan.jpeg"; // OK
 // import missiRoti from "../assets/missiRoti.jpeg"; // OK
 // import tandooriRoti from "../assets/tandooriRoti.jpeg"; // OK 
 import Staffnan from "../assets/StaffNan.png"; // OK  
