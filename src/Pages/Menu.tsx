@@ -55,8 +55,8 @@ import mixparatha from "../assets/mixparatha.png"; // OK
 import samosa from "../assets/samosa.jpeg"; // OK
 import daltdka from "../assets/daltadka.jpeg"; // OK
 import paneerbuttermasala from "../assets/pannerbuttermasala.webp"; // OK (as pannerbuttermasala.webp)
-import aloogobhi from "../assets/aloo-gobi.jpeg"; // Used for Aloo-Gobi/Aloo-Mutter
-import rajmamasala from "../assets/rajmamasala.jpeg"; // OK
+// import aloogobhi from "../assets/aloo-gobi.jpeg"; // Used for Aloo-Gobi/Aloo-Mutter
+// import rajmamasala from "../assets/rajmamasala.jpeg"; // OK
 import malaikofta from "../assets/malai-kofta.webp"; // OK
 import shaahipanner from "../assets/shaahipanner.png"; // Corrected to match file name: shaahipanner.png
 import kadaipanner from "../assets/kadaipanner.jpeg"; // OK
