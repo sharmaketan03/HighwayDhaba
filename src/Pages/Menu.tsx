@@ -24,7 +24,7 @@ import { Utensils, Leaf, Pizza, Sandwich, ChefHat, Coffee, CookingPot, Layers, P
 // Ensure these paths are correct in your project structure
 import HotCoffe from "../assets/HotCoffe.jpg"; // OK
 import coldCoffe from "../assets/cold-COffe.jpg" // OK
-import alooParatha from "../assets/aloo-paratha.jpg"; // OK
+import alooParatha from "../assets/pannerparatha.png"; // OK
 import cauliflowerParatha from "../assets/Cauliflowerparatha.png"; // Changed casing
 import mixVegUttapam from "../assets/mixveguTTapam.jpg"; // OK
 import onionUttapam from "../assets/onionuthappam.webp"; // OK
@@ -35,7 +35,7 @@ import paneerDosa from "../assets/paneerDosa.jpeg"; // OK
 import plainDosa from "../assets/PlainDosa.jpg"; // OK
 import manchowSoup from "../assets/Manchow Soup.jpeg"; // OK
 import hotSourSoup from "../assets/Hot & Sour Soup.jpeg"; // OK
-import palakPaneer from "../assets/Palak-Paneer.jpg"; // OK
+// import palakPaneer from "../assets/Palak-Paneer.jpg"; // OK
 import plainCurd from "../assets/plaincurd.jpg"; // OK
 import plainParatha from "../assets/Plainparatha.jpeg"; // OK
 import ravaDosa from "../assets/ravadosa.jpg"; // OK
