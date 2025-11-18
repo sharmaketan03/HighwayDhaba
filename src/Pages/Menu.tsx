@@ -75,7 +75,7 @@ import PaneerDilbahaar from "../assets/Paneer Dilbahaar.jpeg"; // Corrected to m
 import PaneerPunjabi from "../assets/PaneerPunjabi.jpeg"; // Corrected to match file name: PaneerPunjabi.jpeg
 import pannerchatkara from "../assets/PaneerChatkara.jpeg"; // Corrected to match file name: PaneerChatkara.jpeg
 import PaneerKalimirch from "../assets/PaneerKalimirch.jpeg"; // Corrected to match file name: PaneerKalimirch.jpeg
-import panner_masala from "../assets/pannerMasala.jpeg"; // Corrected to match file name: pannerMasala.jpeg
+import panner_masala from "../assets/pannermasala.jpeg"; // Corrected to match file name: pannerMasala.jpeg
 import pannertadka from "../assets/pannertadka.jpg"; // OK
 import pannerpeshwari from "../assets/pannerpeshwari.jpg"; // OK
 import pannerlababdar from "../assets/pannerlababdar.jpg"; // OK
