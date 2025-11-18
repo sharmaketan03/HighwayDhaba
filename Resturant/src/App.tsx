@@ -26,7 +26,7 @@ const PageLoader = () => (
       <div className="relative mb-8">
         <div className="relative w-40 h-40 mx-auto rounded-full bg-white shadow-2xl flex items-center justify-center overflow-hidden animate-slide-lr">
           <img 
-            src={Logo}
+            src="Logo"
             alt="PJ Dhaba Logo" 
             className="w-36 h-36 object-cover rounded-full"
           />
