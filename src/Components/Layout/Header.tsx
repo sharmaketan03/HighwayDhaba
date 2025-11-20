@@ -31,11 +31,11 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 90015 55510</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="h-4 w-4" />
-              <span>Highway Road, Rajasthan</span>
+              <span>Agra - Mumbai Hwy, Tordanyal, Rajasthan</span>
             </div>
           </div>
           <div className="text-traditional-gold font-medium">

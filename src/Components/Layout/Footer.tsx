@@ -76,13 +76,13 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-traditional-gold mt-0.5" />
                 <div>
-                  <p className="text-gray-300">Highway Road, Near Bus Stand</p>
-                  <p className="text-gray-300">Rajasthan, India 123456</p>
+                  <p className="text-gray-300">Agra - Mumbai Hwy, Tordanyal</p>
+                  <p className="text-gray-300">Rajasthan 328001, India</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-traditional-gold" />
-                <p className="text-gray-300">+91 98765 43210</p>
+                <p className="text-gray-300">+91 90015 55510</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-traditional-gold" />
@@ -102,7 +102,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="border-t border-traditional-gold/30 mt-8 pt-8 text-center">
           <p className="text-gray-300 text-sm">
-            © 2024 PJ Dhaba. All rights reserved. | Designed with ❤️ for authentic Indian hospitality
+            © 2024 PJ Dhaba. All rights reserved. | Designed with ❤️ by Grosine Infotech.
           </p>
         </div>
       </div>
